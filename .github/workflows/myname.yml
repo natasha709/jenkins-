@@ -1,0 +1,8 @@
+name: Print Name Workflow
+on: [push]
+jobs:
+  print-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print your name
+        run: echo "My name is Agoa Elizabeth"
