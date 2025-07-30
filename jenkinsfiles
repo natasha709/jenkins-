@@ -10,7 +10,7 @@ pipeline{
 stages {
    stage('checkout'){
       steps {
-         git 'https://github.com/munguriek/june-2025-class-demo-1-django.git'  //github.com/your-repo/your-project.git
+         git branch: 'main', url: 'https://github.com/munguriek/june-2025-class-demo-1-django.git'  //github.com/your-repo/your-project.git
       }
    }
    stage('setup virtual Environment'){
