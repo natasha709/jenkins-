@@ -10,7 +10,8 @@ class GreetingConfig(AppConfig):
     """Configuration class for the greeting application.
 
     Attributes:
-        default_auto_field (str): The default field type for automatic primary keys
+        default_auto_field (str):
+            The default field type for automatic primary keys
         name (str): The name of this application (must match the package name)
     """
 
@@ -23,5 +24,6 @@ class GreetingConfig(AppConfig):
         This method can be used to register signals or perform other
         one-time initialization tasks.
         """
-        # Import and register signals here if needed
+# Import and register signals here if needed
+
         pass
