@@ -15,8 +15,9 @@ jobs:
           python-version: '3.12' 
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
-             pip install pylint 
+        run: |
+            pip install -r requirements.txt
+            pip install pylint 
 
       - name: Lint code
         run: pylint pycon.yml
