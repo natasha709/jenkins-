@@ -16,10 +16,10 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
-              pip install pylint 
+             pip install pylint 
 
       - name: Lint code
-        run: pylint
+        run: pylint pycon.yml
 
       - name: Run tests
         run: pytest
