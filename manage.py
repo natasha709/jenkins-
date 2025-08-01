@@ -7,7 +7,6 @@ from django.core.management import execute_from_command_line
 
 def main():
     """Run administrative tasks for Django project.
-    
     Sets up the environment and executes commands from the command line.
     """
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')

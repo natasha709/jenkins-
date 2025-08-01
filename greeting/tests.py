@@ -16,7 +16,6 @@ class GreetingTests(TestCase):
     def setUp(self):
         """Initialize test client before each test method."""
         self.client = Client()
-
     def test_index_page(self):
         """Verify the index page returns correct response and content.
         
@@ -29,7 +28,6 @@ class GreetingTests(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'Hello')
         self.assertTemplateUsed(response, 'index.html')
-
 
 class GreetingFunctionalityTests(TestCase):
     """Test cases for greeting view's business logic and context data."""
