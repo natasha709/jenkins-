@@ -26,5 +26,4 @@ class GreetingConfig(AppConfig):
         """
 # Import and register signals here if needed
 
-
         pass
