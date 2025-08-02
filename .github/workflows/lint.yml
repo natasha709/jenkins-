@@ -24,7 +24,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
 
   test:
     name: Test Job
