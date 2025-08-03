@@ -9,7 +9,7 @@ pipeline{
    stages {
       stage('Checkout') {
          steps {
-            git branch: 'main', url: 'https://github.com/Agoa-Elizabeth/june25-classdemo2.git'  //github.com/your-repo/your-project.git
+            git branch: 'main', url: 'https://github.com/natasha709/jenkins-.git'
          }
       }
       stage('Setup Virtual Environment') {
