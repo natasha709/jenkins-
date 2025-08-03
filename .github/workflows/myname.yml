@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print your name
-        run: echo "My name is Agoa Elizabeth"
+        run: echo "My name is Natasha Justine"
